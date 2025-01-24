@@ -34,7 +34,7 @@ function delMacska(req,res) {
 }
 
 function indexOf(id) {
-    let i=0;while(i<macskak.length && macskak[id]!= id) i++;
+    let i=0;while(i<macskak.length && macskak[i].id != id) i++;
     if(i<macskak.length) return i; else return -1;
 }
 
